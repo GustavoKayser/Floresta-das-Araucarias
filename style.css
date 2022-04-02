@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
 .wow {
   width: 100px;
 }
@@ -9,7 +11,7 @@
 
 body {
 	background: var(--eco-color);
-	font-family: Arial, Roboto, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 }
 
 .main {
@@ -17,12 +19,12 @@ body {
 	padding: 3px 6px 10px 6px;
 	margin: auto;
 	box-shadow: 5px 5px 0px #262626;
-	max-width: 1200px;
+	max-width: 900px;
 	min-width: 120px;
 }
 
 .header {
-	font-family: Arial, Roboto, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 }
 
 .title {
@@ -75,13 +77,14 @@ figcaption {
 }
 
 button {
-	width: 100px;
+	width: 30%;
 	font-size: 30px;
 	font-weight: 500;
 	border-style: none;
 	margin: 0px 20px;
 	cursor: auto;
 	padding: 7px;
+	font-family: 'Roboto', sans-serif;
 }
 
 button:hover {
